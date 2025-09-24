@@ -74,6 +74,7 @@
             this.label18.Size = new System.Drawing.Size(88, 24);
             this.label18.TabIndex = 36;
             this.label18.Text = "Click here!";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label17
             // 
@@ -101,6 +102,7 @@
             this.guna2btnRegister.Size = new System.Drawing.Size(295, 45);
             this.guna2btnRegister.TabIndex = 34;
             this.guna2btnRegister.Text = "Register";
+            this.guna2btnRegister.Click += new System.EventHandler(this.guna2btnRegister_Click);
             // 
             // label16
             // 

@@ -16,5 +16,14 @@ namespace PROEL2D_MIDTERM
         {
             InitializeComponent();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure you want to logout?", "Error", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+
+        }
     }
 }

@@ -87,6 +87,7 @@
             this.label2.Size = new System.Drawing.Size(83, 25);
             this.label2.TabIndex = 27;
             this.label2.Text = "Register";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -116,6 +117,7 @@
             this.guna2btnLogin.Size = new System.Drawing.Size(436, 69);
             this.guna2btnLogin.TabIndex = 25;
             this.guna2btnLogin.Text = "Login";
+            this.guna2btnLogin.Click += new System.EventHandler(this.guna2btnLogin_Click);
             // 
             // label13
             // 
