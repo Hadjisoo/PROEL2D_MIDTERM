@@ -63,9 +63,10 @@
             this.panel1.Controls.Add(this.guna2btnDashboard);
             this.panel1.Controls.Add(this.guna2CirclePictureBox1);
             this.panel1.ForeColor = System.Drawing.Color.Transparent;
-            this.panel1.Location = new System.Drawing.Point(11, -1);
+            this.panel1.Location = new System.Drawing.Point(-1, -7);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(277, 829);
+            this.panel1.Size = new System.Drawing.Size(186, 546);
             this.panel1.TabIndex = 3;
             // 
             // guna2Button1
@@ -80,9 +81,10 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(-1, 690);
+            this.guna2Button1.Location = new System.Drawing.Point(-1, 448);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(277, 63);
+            this.guna2Button1.Size = new System.Drawing.Size(185, 41);
             this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "LOGOUT";
             this.guna2Button1.UseTransparentBackground = true;
@@ -94,9 +96,10 @@
             this.lblName.BackColor = System.Drawing.Color.Transparent;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.ForeColor = System.Drawing.Color.Black;
-            this.lblName.Location = new System.Drawing.Point(101, 146);
+            this.lblName.Location = new System.Drawing.Point(67, 95);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(40, 25);
+            this.lblName.Size = new System.Drawing.Size(28, 17);
             this.lblName.TabIndex = 7;
             this.lblName.Text = "Yul";
             // 
@@ -111,9 +114,10 @@
             this.guna2btnLogs.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2btnLogs.ForeColor = System.Drawing.Color.White;
             this.guna2btnLogs.IndicateFocus = true;
-            this.guna2btnLogs.Location = new System.Drawing.Point(0, 610);
+            this.guna2btnLogs.Location = new System.Drawing.Point(0, 396);
+            this.guna2btnLogs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2btnLogs.Name = "guna2btnLogs";
-            this.guna2btnLogs.Size = new System.Drawing.Size(277, 63);
+            this.guna2btnLogs.Size = new System.Drawing.Size(185, 41);
             this.guna2btnLogs.TabIndex = 6;
             this.guna2btnLogs.Text = "LOGS";
             this.guna2btnLogs.UseTransparentBackground = true;
@@ -129,9 +133,10 @@
             this.guna2btnReports.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2btnReports.ForeColor = System.Drawing.Color.White;
             this.guna2btnReports.IndicateFocus = true;
-            this.guna2btnReports.Location = new System.Drawing.Point(0, 526);
+            this.guna2btnReports.Location = new System.Drawing.Point(0, 342);
+            this.guna2btnReports.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2btnReports.Name = "guna2btnReports";
-            this.guna2btnReports.Size = new System.Drawing.Size(277, 63);
+            this.guna2btnReports.Size = new System.Drawing.Size(185, 41);
             this.guna2btnReports.TabIndex = 5;
             this.guna2btnReports.Text = "REPORTS";
             this.guna2btnReports.UseTransparentBackground = true;
@@ -147,9 +152,10 @@
             this.guna2btnSubject.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2btnSubject.ForeColor = System.Drawing.Color.White;
             this.guna2btnSubject.IndicateFocus = true;
-            this.guna2btnSubject.Location = new System.Drawing.Point(0, 444);
+            this.guna2btnSubject.Location = new System.Drawing.Point(0, 289);
+            this.guna2btnSubject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2btnSubject.Name = "guna2btnSubject";
-            this.guna2btnSubject.Size = new System.Drawing.Size(277, 63);
+            this.guna2btnSubject.Size = new System.Drawing.Size(185, 41);
             this.guna2btnSubject.TabIndex = 4;
             this.guna2btnSubject.Text = "SUBJECT";
             this.guna2btnSubject.UseTransparentBackground = true;
@@ -165,9 +171,10 @@
             this.guna2btnTeacher.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2btnTeacher.ForeColor = System.Drawing.Color.White;
             this.guna2btnTeacher.IndicateFocus = true;
-            this.guna2btnTeacher.Location = new System.Drawing.Point(0, 364);
+            this.guna2btnTeacher.Location = new System.Drawing.Point(0, 237);
+            this.guna2btnTeacher.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2btnTeacher.Name = "guna2btnTeacher";
-            this.guna2btnTeacher.Size = new System.Drawing.Size(277, 63);
+            this.guna2btnTeacher.Size = new System.Drawing.Size(185, 41);
             this.guna2btnTeacher.TabIndex = 3;
             this.guna2btnTeacher.Text = "TEACHER";
             this.guna2btnTeacher.UseTransparentBackground = true;
@@ -183,9 +190,10 @@
             this.guna2btnStudent.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2btnStudent.ForeColor = System.Drawing.Color.White;
             this.guna2btnStudent.IndicateFocus = true;
-            this.guna2btnStudent.Location = new System.Drawing.Point(0, 282);
+            this.guna2btnStudent.Location = new System.Drawing.Point(0, 183);
+            this.guna2btnStudent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2btnStudent.Name = "guna2btnStudent";
-            this.guna2btnStudent.Size = new System.Drawing.Size(277, 63);
+            this.guna2btnStudent.Size = new System.Drawing.Size(185, 41);
             this.guna2btnStudent.TabIndex = 2;
             this.guna2btnStudent.Text = "STUDENT";
             this.guna2btnStudent.UseTransparentBackground = true;
@@ -201,9 +209,10 @@
             this.guna2btnDashboard.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2btnDashboard.ForeColor = System.Drawing.Color.White;
             this.guna2btnDashboard.IndicateFocus = true;
-            this.guna2btnDashboard.Location = new System.Drawing.Point(0, 201);
+            this.guna2btnDashboard.Location = new System.Drawing.Point(0, 131);
+            this.guna2btnDashboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2btnDashboard.Name = "guna2btnDashboard";
-            this.guna2btnDashboard.Size = new System.Drawing.Size(277, 63);
+            this.guna2btnDashboard.Size = new System.Drawing.Size(185, 41);
             this.guna2btnDashboard.TabIndex = 1;
             this.guna2btnDashboard.Text = "DASHBOARD";
             this.guna2btnDashboard.UseTransparentBackground = true;
@@ -214,10 +223,11 @@
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(70, 11);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(47, 7);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(128, 123);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(85, 80);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 0;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -227,11 +237,12 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(308, 316);
+            this.dataGridView1.Location = new System.Drawing.Point(205, 205);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(881, 195);
+            this.dataGridView1.Size = new System.Drawing.Size(587, 127);
             this.dataGridView1.TabIndex = 4;
             // 
             // chart1
@@ -240,25 +251,27 @@
             this.chart1.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(308, 121);
+            this.chart1.Location = new System.Drawing.Point(205, 79);
+            this.chart1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chart1.Name = "chart1";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(881, 191);
+            this.chart1.Size = new System.Drawing.Size(587, 124);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
             // 
             // AdminDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 826);
+            this.ClientSize = new System.Drawing.Size(800, 537);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AdminDashboard";
             this.Text = "AdminDashboard";
             this.panel1.ResumeLayout(false);
