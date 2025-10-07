@@ -15,10 +15,12 @@ namespace PROEL2D_MIDTERM
     {
         private static int loginAttempts = 0;
         private const int MAX_ATTEMPTS = 3;
+        private DateTime lockoutTime;
 
         public Login()
         {
             InitializeComponent();
+            lockoutTime = DateTime.Now;
         }
 
         string connectionString = @"Data Source = DESKTOP-4HKFQIA;Initial catalog = AbadDB; Integrated Security = true";
@@ -28,6 +30,20 @@ namespace PROEL2D_MIDTERM
             {
                 MessageBox.Show("Maximum login attempts reached. Please restart the application.");
                 return;
+            }
+            else
+            {
+                loginAttempts++;
+
+                if (loginAttempts >= MAX_ATTEMPTS)
+                {
+                    lockoutTime = DateTime.Now.AddMinutes(3);
+                    MessageBox.Show($"Maximum login attempts exceeded. You are locked out for 3 minutes.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show($"Invalid username or password. You have {MAX_ATTEMPTS - loginAttempts} attempts remaining.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             // 1. Correct Logic Order: Validate inputs BEFORE connecting to the database.
             if (string.IsNullOrWhiteSpace(guna2txtUname.Text) || string.IsNullOrWhiteSpace(guna2txtPass.Text))
@@ -85,12 +101,12 @@ namespace PROEL2D_MIDTERM
                             }
 
 
+
                             this.Hide();
 
                         }
-                        else
+                        else 
                         {
-                            // Check if the account exists but is pending
                             reader.Close();
                             SqlCommand checkPendingCmd = new SqlCommand(
                                 "SELECT P.Status FROM Users U INNER JOIN Profiles P ON U.ProfileID = P.ProfileID WHERE U.Username = @Username",

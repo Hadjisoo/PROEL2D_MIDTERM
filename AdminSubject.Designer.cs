@@ -1,6 +1,6 @@
 ﻿namespace PROEL2D_MIDTERM
 {
-    partial class AdminDashboard
+    partial class AdminSubject
     {
         /// <summary>
         /// Required designer variable.
@@ -28,14 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.panel1 = new System.Windows.Forms.Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminSubject));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.label4 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.lblName = new System.Windows.Forms.Label();
             this.guna2btnLogs = new Guna.UI2.WinForms.Guna2Button();
@@ -43,41 +40,31 @@
             this.guna2btnSubject = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnTeacher = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnStudent = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2btnDashboard = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.chartStudentStatus = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblActStudCount = new System.Windows.Forms.Label();
             this.lblActTeacCount = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblSubjectTotal = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.chartTeacher = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.lblActStudCount = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2btnDashboard = new Guna.UI2.WinForms.Guna2Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartStudentStatus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartTeacher)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // label4
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel1.Controls.Add(this.guna2Button1);
-            this.panel1.Controls.Add(this.lblName);
-            this.panel1.Controls.Add(this.guna2btnLogs);
-            this.panel1.Controls.Add(this.guna2btnReports);
-            this.panel1.Controls.Add(this.guna2btnSubject);
-            this.panel1.Controls.Add(this.guna2btnTeacher);
-            this.panel1.Controls.Add(this.guna2btnStudent);
-            this.panel1.Controls.Add(this.guna2btnDashboard);
-            this.panel1.Controls.Add(this.guna2CirclePictureBox1);
-            this.panel1.ForeColor = System.Drawing.Color.Transparent;
-            this.panel1.Location = new System.Drawing.Point(-2, -11);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(279, 840);
-            this.panel1.TabIndex = 3;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(310, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(98, 25);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Pending:";
             // 
             // guna2Button1
             // 
@@ -206,6 +193,46 @@
             this.guna2btnStudent.UseTransparentBackground = true;
             this.guna2btnStudent.Click += new System.EventHandler(this.guna2btnStudent_Click);
             // 
+            // lblActTeacCount
+            // 
+            this.lblActTeacCount.AutoSize = true;
+            this.lblActTeacCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblActTeacCount.Location = new System.Drawing.Point(477, 53);
+            this.lblActTeacCount.Name = "lblActTeacCount";
+            this.lblActTeacCount.Size = new System.Drawing.Size(36, 25);
+            this.lblActTeacCount.TabIndex = 18;
+            this.lblActTeacCount.Text = "00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(310, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(165, 25);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Active Teacher:";
+            // 
+            // lblActStudCount
+            // 
+            this.lblActStudCount.AutoSize = true;
+            this.lblActStudCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblActStudCount.Location = new System.Drawing.Point(477, 28);
+            this.lblActStudCount.Name = "lblActStudCount";
+            this.lblActStudCount.Size = new System.Drawing.Size(36, 25);
+            this.lblActStudCount.TabIndex = 16;
+            this.lblActStudCount.Text = "00";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(310, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 25);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Active Student:";
+            // 
             // guna2btnDashboard
             // 
             this.guna2btnDashboard.Animated = true;
@@ -225,6 +252,17 @@
             this.guna2btnDashboard.UseTransparentBackground = true;
             this.guna2btnDashboard.Click += new System.EventHandler(this.guna2btnDashboard_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(315, 319);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(880, 195);
+            this.dataGridView1.TabIndex = 13;
+            // 
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -240,134 +278,72 @@
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
-            // dataGridView1
+            // label2
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(308, 315);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(880, 195);
-            this.dataGridView1.TabIndex = 4;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(414, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 25);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "00";
             // 
-            // chartStudentStatus
+            // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartStudentStatus.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartStudentStatus.Legends.Add(legend1);
-            this.chartStudentStatus.Location = new System.Drawing.Point(308, 122);
-            this.chartStudentStatus.Name = "chartStudentStatus";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartStudentStatus.Series.Add(series1);
-            this.chartStudentStatus.Size = new System.Drawing.Size(432, 191);
-            this.chartStudentStatus.TabIndex = 5;
-            this.chartStudentStatus.Text = "chartStudentStatus";
+            chartArea8.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.chart1.Legends.Add(legend8);
+            this.chart1.Location = new System.Drawing.Point(315, 126);
+            this.chart1.Name = "chart1";
+            series8.ChartArea = "ChartArea1";
+            series8.Legend = "Legend1";
+            series8.Name = "Series1";
+            this.chart1.Series.Add(series8);
+            this.chart1.Size = new System.Drawing.Size(880, 191);
+            this.chart1.TabIndex = 14;
+            this.chart1.Text = "chart1";
             // 
-            // label1
+            // panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(303, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 25);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Active Student:";
+            this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Controls.Add(this.lblName);
+            this.panel1.Controls.Add(this.guna2btnLogs);
+            this.panel1.Controls.Add(this.guna2btnReports);
+            this.panel1.Controls.Add(this.guna2btnSubject);
+            this.panel1.Controls.Add(this.guna2btnTeacher);
+            this.panel1.Controls.Add(this.guna2btnStudent);
+            this.panel1.Controls.Add(this.guna2btnDashboard);
+            this.panel1.Controls.Add(this.guna2CirclePictureBox1);
+            this.panel1.ForeColor = System.Drawing.Color.Transparent;
+            this.panel1.Location = new System.Drawing.Point(5, -7);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(279, 840);
+            this.panel1.TabIndex = 12;
             // 
-            // lblActStudCount
-            // 
-            this.lblActStudCount.AutoSize = true;
-            this.lblActStudCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActStudCount.Location = new System.Drawing.Point(470, 24);
-            this.lblActStudCount.Name = "lblActStudCount";
-            this.lblActStudCount.Size = new System.Drawing.Size(36, 25);
-            this.lblActStudCount.TabIndex = 7;
-            this.lblActStudCount.Text = "00";
-            // 
-            // lblActTeacCount
-            // 
-            this.lblActTeacCount.AutoSize = true;
-            this.lblActTeacCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActTeacCount.Location = new System.Drawing.Point(470, 49);
-            this.lblActTeacCount.Name = "lblActTeacCount";
-            this.lblActTeacCount.Size = new System.Drawing.Size(36, 25);
-            this.lblActTeacCount.TabIndex = 9;
-            this.lblActTeacCount.Text = "00";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(303, 49);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(165, 25);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Active Teacher:";
-            // 
-            // lblSubjectTotal
-            // 
-            this.lblSubjectTotal.AutoSize = true;
-            this.lblSubjectTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubjectTotal.Location = new System.Drawing.Point(407, 74);
-            this.lblSubjectTotal.Name = "lblSubjectTotal";
-            this.lblSubjectTotal.Size = new System.Drawing.Size(36, 25);
-            this.lblSubjectTotal.TabIndex = 11;
-            this.lblSubjectTotal.Text = "00";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(303, 74);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 25);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Subject:";
-            // 
-            // chartTeacher
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.chartTeacher.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartTeacher.Legends.Add(legend2);
-            this.chartTeacher.Location = new System.Drawing.Point(756, 122);
-            this.chartTeacher.Name = "chartTeacher";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartTeacher.Series.Add(series2);
-            this.chartTeacher.Size = new System.Drawing.Size(432, 191);
-            this.chartTeacher.TabIndex = 12;
-            this.chartTeacher.Text = "chartTeacher";
-            // 
-            // AdminDashboard
+            // AdminSubject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 826);
-            this.Controls.Add(this.chartTeacher);
-            this.Controls.Add(this.lblSubjectTotal);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblActTeacCount);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblActStudCount);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.chartStudentStatus);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Name = "AdminDashboard";
-            this.Text = "AdminDashboard";
-            this.Load += new System.EventHandler(this.AdminDashboard_Load);
+            this.Name = "AdminSubject";
+            this.Text = "AdminSubject";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartStudentStatus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartTeacher)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,7 +351,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.Label lblName;
         private Guna.UI2.WinForms.Guna2Button guna2btnLogs;
@@ -383,16 +359,15 @@
         private Guna.UI2.WinForms.Guna2Button guna2btnSubject;
         private Guna.UI2.WinForms.Guna2Button guna2btnTeacher;
         private Guna.UI2.WinForms.Guna2Button guna2btnStudent;
-        private Guna.UI2.WinForms.Guna2Button guna2btnDashboard;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartStudentStatus;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblActStudCount;
         private System.Windows.Forms.Label lblActTeacCount;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblSubjectTotal;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartTeacher;
+        private System.Windows.Forms.Label lblActStudCount;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2Button guna2btnDashboard;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
